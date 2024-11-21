@@ -1,0 +1,1 @@
+INSERT INTO products (name,price,description,category,image,rating_rate,rating_count) VALUES ('{{(Table2.newRow || {}).name}}','{{(Table2.newRow || {}).price}}','{{(Table2.newRow || {}).description}}','{{(Table2.newRow || {}).category}}','{{(Table2.newRow || {}).image}}','{{(Table2.newRow || {}).rating_rate}}','{{(Table2.newRow || {}).rating_count}}')

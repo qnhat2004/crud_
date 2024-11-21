@@ -1,0 +1,1 @@
+UPDATE users SET name= '{{Table3.updatedRow.name}}', phone= '{{Table3.updatedRow.phone}}', email= '{{Table3.updatedRow.email}}', password= '{{Table3.updatedRow.password}}', role= '{{Table3.updatedRow.role}}' WHERE id= '{{Table3.updatedRow.id}}';

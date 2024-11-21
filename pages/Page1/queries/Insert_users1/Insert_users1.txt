@@ -1,0 +1,1 @@
+INSERT INTO users (name,phone,email,password,role) VALUES ('{{(Table3.newRow || {}).name}}','{{(Table3.newRow || {}).phone}}','{{(Table3.newRow || {}).email}}','{{(Table3.newRow || {}).password}}','{{(Table3.newRow || {}).role}}')

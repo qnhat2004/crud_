@@ -1,0 +1,1 @@
+UPDATE products SET name= '{{Table1.updatedRow.name}}', price= '{{Table1.updatedRow.price}}', description= '{{Table1.updatedRow.description}}', category= '{{Table1.updatedRow.category}}', image= '{{Table1.updatedRow.image}}', rating_rate= '{{Table1.updatedRow.rating_rate}}', rating_count= '{{Table1.updatedRow.rating_count}}' WHERE id= '{{Table1.updatedRow.id}}';
